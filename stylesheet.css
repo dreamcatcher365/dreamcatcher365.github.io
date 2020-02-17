@@ -339,12 +339,16 @@ margin-bottom: 5%;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
       }
 
       #video-container {
         border-style: none;
         border-color: crimson;
         margin: 10px;
+        width: 640px;
+        height: 360px;
+        background-color: black;
       }
 
       /* Contact Page */
