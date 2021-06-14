@@ -35,7 +35,7 @@ body {
     background-color: #AEE5D8;
   }
   
-  #navigation-container-dropdown:active #dropdown-content {
+  #navigation-container-dropdown:hover #navigation-container-dropdown:active #dropdown-content {
     display: block;
   }
 
