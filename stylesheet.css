@@ -35,7 +35,7 @@ body {
     background-color: #AEE5D8;
   }
   
-  #navigation-container-dropdown:target #dropdown-content {
+  #navigation-container-dropdown #dropdown-content  #menu-icon:target {
     display: block;
   }
 
