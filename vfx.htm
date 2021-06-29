@@ -1,109 +1,146 @@
 <!DOCTYPE html>
-<html>
-<!-- Head and Title -->
 
-<head>
+<html>
+  <!-- Head and Title -->
+  <head>
     <title>Dream Catcher</title>
     <link rel="stylesheet" href="./stylesheet.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-
-</head>
-
-<!-- Body Section -->
-
-<body>
+  </head>
+  
+  
+  
+  <!-- Body Section -->
+  <body>
     <div id="top-container">
-        <!-- Heading -->
+        
+      <!-- Heading -->
+      <div id="logo-container">
         <div id="logo">
-            <a href="./index.htm">
-                <h1>DREAM <br> CATCHER</h1>
-            </a>
+          <a href="./index.htm">
+            <h1>DREAM <br> CATCHER</h1>
+          </a>
         </div>
-
-        <!-- Navigation Section -->
-        <div id="navigation-container">
-            <nav>
-                <a href="./index.htm">Home</a>
-                <a href="./work-with-me.htm">Work With Me</a>
-                <a href="./vfx.htm" class="active">VFX</a>                
-                <a href="./photography.htm">Photography</a>
-                <a href="./web-development.htm">Web Development</a>
-                <a href="./contact.htm">Contact</a>
-
-                <!-- Social Media Section -->
-                <a href="https://www.instagram.com/dream.catcher.365/" class="fa fa-instagram" target="_blank"></a>
-                <a href="https://www.artstation.com/dreamcatcher365" class="fa fa-artstation" target="_blank"></a>
-                <a href="https://vimeo.com/dreamcatcher365" class="fa fa-vimeo" target="_blank"></a>
-                <a href="https://www.linkedin.com/in/-dream-catcher/" class="fa fa-linkedin" target="_blank"></a>
-            </nav>
+      </div>
+      
+      
+      
+      <!-- Navigation Section -->
+      <div id="navigation-container">
+        <div class="topnav" id="myTopnav">
+            
+          <!-- Menu Items -->
+          <div class="menu-items">
+            <a href="./index.htm" class="home">Home</a>
+            <a href="./work-with-me.htm">Work With Me</a>
+            <a href="./vfx.htm" class="active">VFX</a>
+            <a href="./photography.htm">Photography</a>
+            <a href="./web-development.htm">Web Development</a>
+            <a href="./contact.htm">Contact</a>
+          </div>
+          
+          <!-- Social Media Items -->
+          <div class="social-media-items">
+            <a href="https://www.instagram.com/dream.catcher.365/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.artstation.com/dreamcatcher365" class="fa fa-artstation" target="_blank"></a>
+            <a href="https://vimeo.com/dreamcatcher365" class="fa fa-vimeo" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/-dream-catcher/" class="fa fa-linkedin" target="_blank"></a>
+          </div>
+          
+          <!-- Responsive Dropdown Menu -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+        
+        <!-- Responsive Dropdown Menu -->
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+      </div>
     </div>
-
 
 
 
     <!-- Main Section -->
     <div id="main">
-        <div id="video-section">
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/543149069" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/508354227" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div id="video-container">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/028/520/313/large/dream-catcher-bathroom-render-final.jpg?1594724671" alt="" height="360px">
-            </div>
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/394954488?color=aee5d8&portrait=0" width="640px" height="360px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/394947482?color=aee5d8&portrait=0" width="640px" height="360px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div id="video-container">
-                <img src="https://cdna.artstation.com/p/assets/images/images/024/195/978/large/dream-catcher-lighting-challenge-lounge-render-edit-01.jpg?1581609717" alt="" height="360px">
-            </div>
-            <div id="video-container">
-                <img src="https://cdna.artstation.com/p/assets/images/images/024/195/324/large/dream-catcher-lighting-challenge-mafia-render-edit-06.jpg?1581608273" alt="" height="360px">
-            </div>
-            <div id="video-container">
-                <img src="https://cdna.artstation.com/p/assets/images/images/024/166/654/large/dream-catcher-lighting-challenge-ola-render-edit-01.jpg?1581521833" alt="" height="360px">
-            </div>
-            <div id="video-container">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/023/156/307/large/katie-h-fur-render-11.jpg?1578311174" alt="" width="640px">
-            </div>
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/378807973?color=aee5d8&portrait=0" width="640px" height="360px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div id="video-container">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/022/166/331/large/katie-h-cherry-blossom-render-10-final.jpg?1574352444" alt="" width="640px">
-            </div>
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/374179808?color=aee5d8&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/267795227" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/260012236" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/232985804" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-
-            <div id="video-container">
-                <iframe src="https://player.vimeo.com/video/134827009" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
+      <div id="video-section">
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/543149069" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/508354227" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <img src="https://cdnb.artstation.com/p/assets/images/images/028/520/313/large/dream-catcher-bathroom-render-final.jpg?1594724671" alt="" height="360px">
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/394954488?color=aee5d8&portrait=0" width="640px" height="360px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/394947482?color=aee5d8&portrait=0" width="640px" height="360px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <img src="https://cdna.artstation.com/p/assets/images/images/024/195/978/large/dream-catcher-lighting-challenge-lounge-render-edit-01.jpg?1581609717" alt="" height="360px">
+        </div>
+
+        <div id="video-container">
+          <img src="https://cdna.artstation.com/p/assets/images/images/024/195/324/large/dream-catcher-lighting-challenge-mafia-render-edit-06.jpg?1581608273" alt="" height="360px">
+        </div>
+
+        <div id="video-container">
+          <img src="https://cdna.artstation.com/p/assets/images/images/024/166/654/large/dream-catcher-lighting-challenge-ola-render-edit-01.jpg?1581521833" alt="" height="360px">
+        </div>
+
+        <div id="video-container">
+          <img src="https://cdnb.artstation.com/p/assets/images/images/023/156/307/large/katie-h-fur-render-11.jpg?1578311174" alt="" width="640px">
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/378807973?color=aee5d8&portrait=0" width="640px" height="360px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <img src="https://cdnb.artstation.com/p/assets/images/images/022/166/331/large/katie-h-cherry-blossom-render-10-final.jpg?1574352444" alt="" width="640px">
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/374179808?color=aee5d8&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/267795227" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/260012236" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/232985804" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://player.vimeo.com/video/134827009" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
 
-
-</body>
+  </body>
 
 </html>
