@@ -536,10 +536,10 @@ body {
   
   /* Welcome Image Section */
   #welcome-section img {
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
   }
-
+  
   #welcome-section #img-container .img-info {
     font-size: 1.65vw;
     height: 2.8vw;
