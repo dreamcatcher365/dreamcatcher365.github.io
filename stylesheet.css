@@ -181,6 +181,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 
 #welcome-section img {
@@ -198,7 +199,7 @@ body {
   width: 58.98vw;
   height: 1.79vw;
   background:rgba(1, 1, 1, 0.5);
-  padding: 1% 2% 0% 0% ;
+  padding: 1% 2% 0% 0%;
 }
 
 #welcome-section .img-info a {
@@ -542,8 +543,9 @@ body {
   
   #welcome-section #img-container .img-info {
     font-size: 2.65vw;
-    height: 5.8vw;
-    width: 98%;
-    line-height: 5vw;
+    height: 5vw;
+    width: 100%;
+    line-height: 4vw;
+    padding-right: 60px;
   }
 }
