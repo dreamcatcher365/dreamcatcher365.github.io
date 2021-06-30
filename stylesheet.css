@@ -549,4 +549,11 @@ body {
     line-height: 4.35vw;
     padding-right: 8%;
   }
+
+
+
+  /* Work With Me Page */
+  #work-with-me-section .about-me {
+    width: 100%;
+  }
 }
