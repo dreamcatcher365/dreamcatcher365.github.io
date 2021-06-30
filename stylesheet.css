@@ -302,14 +302,24 @@ body {
 
 
 
-/* Web Development Page */
-#web-development-section {
+/* VFX Page */
+#video-section {
   border-style: none;
-  border-color: khaki;
-  color:  rgba(0, 0, 0, 0.5);
+  border-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
-  font-size: 40px;
-  margin: 10% auto;
+}
+
+#video-container {
+  border-style: none;
+  border-color: crimson;
+  margin: 10px;
+  width: 640px;
+  height: 360px;
+  background-color: black;
 }
 
 
@@ -367,24 +377,14 @@ body {
 
 
 
-/* VFX Page */
-#video-section {
+/* Web Development Page */
+#web-development-section {
   border-style: none;
-  border-color: cornflowerblue;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  border-color: khaki;
+  color:  rgba(0, 0, 0, 0.5);
   text-align: center;
-}
-
-#video-container {
-  border-style: none;
-  border-color: crimson;
-  margin: 10px;
-  width: 640px;
-  height: 360px;
-  background-color: black;
+  font-size: 40px;
+  margin: 10% auto;
 }
 
 
@@ -555,5 +555,13 @@ body {
   /* Work With Me Page */
   #work-with-me-section .about-me {
     width: 100%;
+  }
+  
+  
+  
+  /* VFX Page */
+  iframe {
+    width: 100%;
+    height: 360px;
   }
 }
