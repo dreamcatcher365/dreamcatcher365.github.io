@@ -1,221 +1,273 @@
 <!DOCTYPE html>
-<html>
-<!-- Head and Title -->
 
-<head>
+<html>
+  <!-- Head and Title -->
+  <head>
     <title>Dream Catcher</title>
     <link rel="stylesheet" href="./stylesheet.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-
-</head>
-
-<!-- Body Section -->
-
-<body>
+  </head>
+  
+  
+  
+  <!-- Body Section -->
+  <body>
     <div id="top-container">
-        <!-- Heading -->
+
+      <!-- Heading -->
+      <div id="logo-container">
         <div id="logo">
-            <a href="./index.htm">
-                <h1>DREAM <br> CATCHER</h1>
-            </a>
+          <a href="./index.htm">
+            <h1>DREAM <br> CATCHER</h1>
+          </a>
         </div>
-        <!-- Navigation Section -->
-        <div id="navigation-container">
-            <nav>
-                <a href="./index.htm">Home</a>
-                <a href="./work-with-me.htm">Work With Me</a>
-                <a href="./vfx.htm">VFX</a>
-                <a href="./photography.htm" class="active">Photography</a>
-                <a href="./web-development.htm">Web Development</a>
-                <a href="./contact.htm">Contact</a>
-
-                <!-- Social Media Section -->
-                <a href="https://www.instagram.com/dream.catcher.365/" class="fa fa-instagram" target="_blank"></a>
-                <a href="https://www.artstation.com/dreamcatcher365" class="fa fa-artstation" target="_blank"></a>
-                <a href="https://vimeo.com/dreamcatcher365" class="fa fa-vimeo" target="_blank"></a>
-                <a href="https://www.linkedin.com/in/-dream-catcher/" class="fa fa-linkedin" target="_blank"></a>
-            </nav>
+      </div>
+      
+      
+      
+      <!-- Navigation Section -->
+      <div id="navigation-container">
+        <div class="topnav" id="myTopnav">
+          
+          <!-- Menu Items -->
+          <div class="menu-items">
+            <a href="./index.htm" class="home">Home</a>
+            <a href="./work-with-me.htm">Work With Me</a>
+            <a href="./vfx.htm">VFX</a>
+            <a href="./photography.htm" class="active">Photography</a>
+            <a href="./web-development.htm">Web Development</a>
+            <a href="./contact.htm">Contact</a>
+          </div>
+          
+          <!-- Social Media Items -->
+          <div class="social-media-items">
+            <a href="https://www.instagram.com/dream.catcher.365/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.artstation.com/dreamcatcher365" class="fa fa-artstation" target="_blank"></a>
+            <a href="https://vimeo.com/dreamcatcher365" class="fa fa-vimeo" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/-dream-catcher/" class="fa fa-linkedin" target="_blank"></a>
+          </div>
+          
+          <!-- Responsive Dropdown Menu -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+        
+        <!-- Responsive Dropdown Menu -->
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+      </div>
     </div>
-
-
+    
+    
+    
     <!-- Main Section -->
     <div id="main">
-        <div id="photo-gallery-section">
+      <div id="photo-gallery-section">
+        <div class="photo-gallery">
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpEx9oigtdv/" target="_blank">
+              <img src="img/img_027.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33A; Light Pink Hibiscus - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
 
-            <div class="photo-gallery">
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpEx9oigtdv/" target="_blank">
-                        <img src="img/img_027.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33A; Light Pink Hibiscus - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpEx2bwA4tF/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_026.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F337; Orange Freesia - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpExsqTAIah/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_025.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F337; White Freesia - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpExgUfAXhl/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_024.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F339; Pink Rose - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpExN51gdI3/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_023.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F338; Water Lily - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpExE5SgZWd/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_022.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F339; Yellow Rose - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpEwmV6At2L/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_021.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33C; Purple African Daisy - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpEvzspAsl-/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_020.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F339; Orange Rose - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BpEurcVgFgN/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_019.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F338; Pink Ice Plant - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BobwjisgPY0/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_018.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F332; Stanley Park Forest of Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/Bobv3VZgWTU/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_017.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33F; Moss Covered Floor and Trees in Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZS5VeAlEl/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_016.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33F; Moss Covered Branches in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZR2NZgeoQ/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_015.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33F; Moss Covered Branches in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZRA5bgL-E/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_014.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33F; A jungle of moss and trees in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZPjGbgRIh/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_013.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F33F; Moss in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZPAt-AId3/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_012.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F333; Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZOdADAi76/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_011.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F333; Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BoZJoWwgRFS/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_010.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F333; Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwxEEhag1/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_009.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F433; Two Orcas and a whale watching boat in - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwuNyBKvR/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_008.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F6A2; &#x1F30A; Cargo ship - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwqTYhG2a/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_007.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F433; Two orcas casually swimming by while whale watching in - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwlbnhvZK/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_006.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F6A2; &#x1F30A;Cargo ship - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwhC8h4y9/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_005.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F30A; &#x1F981; Sea lions on a buoy - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwcOxB6F8/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_004.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F30A;&#x2708;&#xFE0F; Sea Plane - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwYYeh1HC/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_003.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F3DD;&#xFE0F; Little Island somewhere off - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpEx2bwA4tF/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_026.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F337; Orange Freesia - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpExsqTAIah/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_025.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F337; White Freesia - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpExgUfAXhl/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_024.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F339; Pink Rose - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpExN51gdI3/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_023.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F338; Water Lily - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpExE5SgZWd/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_022.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F339; Yellow Rose - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpEwmV6At2L/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_021.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33C; Purple African Daisy - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpEvzspAsl-/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_020.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F339; Orange Rose - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BpEurcVgFgN/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_019.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F338; Pink Ice Plant - Loul&eacute;, Algarve, Portugal &#x1F1F5;&#x1F1F9;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BobwjisgPY0/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_018.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F332; Stanley Park Forest of Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/Bobv3VZgWTU/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_017.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33F; Moss Covered Floor and Trees in Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZS5VeAlEl/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_016.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33F; Moss Covered Branches in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZR2NZgeoQ/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_015.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33F; Moss Covered Branches in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZRA5bgL-E/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_014.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33F; A jungle of moss and trees in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZPjGbgRIh/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_013.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F33F; Moss in Stanley Park - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZPAt-AId3/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_012.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F333; Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZOdADAi76/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_011.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F333; Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BoZJoWwgRFS/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_010.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F333; Stanley Park Trees - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwxEEhag1/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_009.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F433; Two Orcas and a whale watching boat in - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwuNyBKvR/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_008.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F6A2; &#x1F30A; Cargo ship - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwqTYhG2a/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_007.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F433; Two orcas casually swimming by while whale watching in - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwlbnhvZK/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_006.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F6A2; &#x1F30A;Cargo ship - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwhC8h4y9/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_005.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F30A; &#x1F981; Sea lions on a buoy - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
 
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwT5HhEc3/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_002.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F30A; &#x1F981; Sea lions on a buoy - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-                <div id="img-container">
-                    <a href="https://www.instagram.com/p/BjHwPluBTgw/?utm_source=ig_web_copy_link" target="_blank">
-                        <img src="img/img_001.jpg" alt="">
-                    </a>
-                    <div class="img-info">&#x1F309 Lions Gate Bridge - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
-                </div>
-            </div>
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwcOxB6F8/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_004.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F30A;&#x2708;&#xFE0F; Sea Plane - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwYYeh1HC/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_003.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F3DD;&#xFE0F; Little Island somewhere off - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwT5HhEc3/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_002.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F30A; &#x1F981; Sea lions on a buoy - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
+          
+          <div id="img-container">
+            <a href="https://www.instagram.com/p/BjHwPluBTgw/?utm_source=ig_web_copy_link" target="_blank">
+              <img src="img/img_001.jpg" alt="">
+            </a>
+            <div class="img-info">&#x1F309 Lions Gate Bridge - Vancouver, BC, Canada &#x1F1E8;&#x1F1E6;</div>
+          </div>
         </div>
+      </div>
     </div>
 
-
-</body>
-
+  </body>
+  
 </html>
