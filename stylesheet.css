@@ -184,19 +184,19 @@ body {
 }
 
 #welcome-section img {
-  width: 66%;
-  height: 66%;
+  width: 60.85vw;
+  height: 40.6vw;
 }
 
 #welcome-section #img-container .img-info {
   border-style: none;
   position: absolute;
   bottom: 0%;
-  font-size: 18px;
+  font-size: 1.09vw;
   text-align: right;
   max-width: 100%;
-  width: 64%;
-  height: 30px;
+  width: 58.98vw;
+  height: 1.79vw;
   background:rgba(1, 1, 1, 0.5);
   padding: 1% 2% 0% 0% ;
 }
@@ -534,13 +534,9 @@ body {
 
   
   
-  /* Main */
+  /* Welcome Image Section */
   #welcome-section #img-container .img-info {
     font-size: 1.65vw;
     height: 2.8vw;
-  } 
+  }
 }
-
-
-
-
