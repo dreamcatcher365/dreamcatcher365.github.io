@@ -303,7 +303,7 @@ body {
 
 
 /* VFX Page */
-#video-section {
+#vfx-section {
   border-style: none;
   border-color: cornflowerblue;
   display: flex;
@@ -313,13 +313,61 @@ body {
   text-align: center;
 }
 
-#video-container {
+#vfx-container {
   border-style: none;
   border-color: crimson;
+  display: flex;
+  justify-content: center;
   margin: 10px;
   width: 640px;
   height: 360px;
+  max-width: 640px;
+  max-height: 360px;
   background-color: black;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0;
+}
+
+.horizontal-video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.vertical-video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border: 0;
+  text-align: center;
+}
+
+.horizontal-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.vertical-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+  border: 0;
 }
 
 
@@ -556,12 +604,5 @@ body {
   #work-with-me-section .about-me {
     width: 100%;
   }
-  
-  
-  
-  /* VFX Page */
-  iframe {
-    width: 100%;
-    height: 360px;
-  }
+
 }
