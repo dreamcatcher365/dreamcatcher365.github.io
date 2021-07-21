@@ -376,6 +376,120 @@ body {
 #photo-gallery-section {
   border-style: none;
   border-color: yellow;
+  
+  display: flex;
+  
+  
+  
+}
+
+#photo-gallery-section .photo-gallery {
+  border-style: none;
+  border-color: crimson;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+max-width: 100%;
+
+}
+
+#photo-gallery-section #img-container {
+    border-style: none;
+  border-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  position: relative;
+
+  max-width: 100%;
+
+
+  /*
+  position: relative;
+
+  margin: 10px;
+  max-width: 400px;
+  max-height: 400px;
+  display: flex;
+  */
+}
+
+#photo-gallery-section img {
+  border-style: none;
+  border-color: black;
+
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  position: relative;
+
+  max-width: 100%;
+  
+  /*
+
+  width: 100%;
+  height: 100%;
+  */
+}
+
+#photo-gallery-section #img-container .img-info {
+  
+  border-style: none;
+  border-color: rgb(241, 138, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5% 0%;
+  visibility: hidden;
+  max-width: 100%;
+
+  text-align: center;
+
+  /*
+  position: absolute;
+  bottom: 0%;
+  visibility: visible;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  min-width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5% 0%;
+  */
+}
+
+
+#photo-gallery-section #img-container:hover .img-info {
+  border: none magenta;
+
+  visibility: visible;
+
+}
+
+.test {
+  border: none lime;
+  /*
+  margin: 0 0px;
+  */
+}
+
+
+
+
+/*
+#photo-gallery-section {
+  border-style: none;
+  border-color: yellow;
 }
 
 #photo-gallery-section .photo-gallery {
@@ -394,6 +508,7 @@ body {
   margin: 10px;
   max-width: 400px;
   max-height: 400px;
+  display: flex;
 }
 
 #photo-gallery-section img {
@@ -408,15 +523,15 @@ body {
   border-color: lawngreen;
   position: absolute;
   bottom: 0%;
-  right: 0%;
-  visibility: hidden;
-  font-size: auto;
+  visibility: visible;
+  font-size: 16px;
   text-align: center;
   color: white;
   min-width: 100%;
-  height: 10% auto;
+  height: auto;
   background: rgba(0, 0, 0, 0.5);
-  padding: 5% 0% 5% 0%;
+  padding: 5% 0%;
+
 }
 
 
@@ -425,9 +540,10 @@ body {
 }
 
 .test {
-  border: none yellow ;
+  border: none yellow;
   margin: 0 0px;
 }
+*/
 /*
 .test2 {
   border: solid yellow;
@@ -623,31 +739,89 @@ body {
   
   
   /* Photography Page */
+  #photo-gallery-section #img-container .img-info {
+  
+    border-style: none;
+    border-color: rgb(241, 138, 241);
+
+    visibility: visible;
+    width: 400px;
+  }
+
+
+  
+  /*
+  #photo-gallery-section .photo-gallery #img-container{
+    border: blue none;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 60px;
+    background: rgba(0, 0, 0, 0.65);
+    
+    
+  }
+*/
+/*
   #photo-gallery-section #img-container {
     position: relative;
-    border-style: none;
+    border-style: solid;
     border-color: aqua;
     margin: 10px 10px 75px 10px;
     max-width: 400px;
     max-height: 400px;
+    display: flex;
+
+    padding-bottom: 60px;
+    background: rgba(0, 0, 0, 0.65);
   }
+*/
   
+  /*
   #photo-gallery-section #img-container .img-info {
-    border-style: none;
+    */
+    /*
+    border-style: solid;
     border-color: lawngreen;
-    position:absolute;
-    bottom: -16.5%;
-    right: 0%;
+    position: absolute;
+    top: 100%;
     visibility: visible;
     font-size: auto;
     text-align: center;
     color: white;
     min-width: 100%;
-    height: 10% auto;
+    /*
     background: rgba(0, 0, 0, 0.65);
+    
     padding: 5% 0% 5% 0%;
-  }
+    margin: 0% 0% -16.5% 0%;
+    *//*
+    padding: 5% 0;
+  */
 /*
+background: transparent;
+
+  }
+  */
+/*
+  .test {
+    border: solid blue; 
+    padding: 15px;
+  text-align: center;
+  transform: translate(0%, 30%);
+
+    /*
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute; 
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 0 0;
+    overflow: visible;
+    */
+    /*
+  }
+
+
   .test {
     border: inherit yellow;
   }
@@ -656,6 +830,6 @@ body {
     content: "A" !important;
       display: block !important;
       margin: 0 1.5em !important;
-  }
-*/
-}
+    }
+
+    */
