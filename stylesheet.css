@@ -859,10 +859,7 @@ background: transparent;
 
     }
 
-    @media only screen 
-  and (height: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: landscape) {
+    @media only screen and (height: 1024px) and (max-width: 1366px)  {
 
       #photo-gallery-section #img-container .img-info {
   
