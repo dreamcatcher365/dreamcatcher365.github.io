@@ -859,4 +859,21 @@ background: transparent;
 
     }
 
+    @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+      #photo-gallery-section #img-container .img-info {
+  
+        border-style: none;
+        border-color: rgb(241, 138, 241);
+    
+        visibility: visible;
+        width: 400px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.65);
+     
+        
+      }
+      
+    }
+
 
