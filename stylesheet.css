@@ -447,7 +447,7 @@ body {
   border-color: khaki;
   color:  rgba(0, 0, 0, 0.5);
   text-align: center;
-  font-size: 40px;
+  font-size: 4.5vmin;
   margin: 10% auto;
 }
 
@@ -633,6 +633,11 @@ body {
     position: relative;
     background: rgba(0, 0, 0, 0.65);
   }
+  
+  
+  
+  /* Web Development Page */
+ 
 }
 
 
